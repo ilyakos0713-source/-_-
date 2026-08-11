@@ -8,8 +8,6 @@
 - PostgreSQL DDL/DML: создание и изменение таблиц, составной первичный ключ, INSERT и UPDATE.
 - ClickHouse: агрегации и фильтрация больших массивов данных.
 
-Файл [`business_analysis.sql`](business_analysis.sql) содержит очищенные версии запросов. Повторяющийся кейс по акциям объединён в один сценарий, а расчёты объёма торгов названы нейтрально: исходное поле `volume` требует проверки единицы измерения перед интерпретацией как денежного оборота.
-
 [business_analysis.sql](https://github.com/user-attachments/files/30756844/business_analysis.sql)
 -- 1. Healthcare insurance market data preparation (PostgreSQL)
 SELECT
